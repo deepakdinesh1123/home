@@ -24,11 +24,5 @@ jobs:
           path: .cache
           restore-keys: |
             mkdocs-material-
-      - run: curl -LsSf https://astral.sh/uv/install.sh | sh
-      - run: |
-          cd docs
-          uv venv
-          source .venv/bin/activate
-          uv sync
-          mkdocs gh-deploy --force
-          
+      - run: pip install mkdocs-material mkdocs-minify-plugin markdown
+      - run: mkdocs gh-deploy --force
