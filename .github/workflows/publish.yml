@@ -30,4 +30,5 @@ jobs:
           uv venv
           source .venv/bin/activate
           uv sync
-      - run: mkdocs gh-deploy --force
+          mkdocs gh-deploy --force
+          
