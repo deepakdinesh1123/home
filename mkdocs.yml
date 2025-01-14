@@ -1,0 +1,81 @@
+site_name: Deepak's Portfolio
+site_description: Portfolio Website
+strict: true
+site_url: https://deepakdinesh1123.github.io/portfolio/
+
+repo_name: deepakdinesh1123/portfolio
+repo_url: https://github.com/deepakdinesh1123/portfolio
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+      scheme: slate
+      primary: black
+      accent: indigo
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: en
+  features:
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - navigation.expand
+    - navigation.indexes
+    - navigation.path
+    - navigation.prune
+    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tracking
+    - navigation.top
+    - toc.follow
+
+validation:
+  omitted_files: warn
+  absolute_links: warn
+  unrecognized_links: warn
+
+nav:
+  - Home: index.md
+  - Projects: projects/index.md
+  - Resume: resume.md
+  - Blog: blog/index.md
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+plugins:
+  - privacy
+  - search
+  - blog
+  - minify:
+      minify_html: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/deepakdinesh1123/
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/deepak-dinesh-6444b71a0/
+
+copyright: >
+  Copyright &copy; 2024 Deepak
