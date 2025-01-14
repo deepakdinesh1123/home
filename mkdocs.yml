@@ -46,6 +46,7 @@ nav:
   - Projects: projects/index.md
   - Resume: resume.md
   - Blog: blog/index.md
+  - Contact: contact.md
 
 markdown_extensions:
   - attr_list
