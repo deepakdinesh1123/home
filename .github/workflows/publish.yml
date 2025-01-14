@@ -27,5 +27,7 @@ jobs:
       - run: curl -LsSf https://astral.sh/uv/install.sh | sh
       - run: |
           cd docs
+          uv venv
+          source ./venv/bin/activate
           uv sync
       - run: mkdocs gh-deploy --force
