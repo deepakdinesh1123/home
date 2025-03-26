@@ -27,7 +27,7 @@ jobs:
           pyproject-file: "pyproject.toml"
 
       - name: Install Dependencies
-        run: uv pip install -e .
+        run: uv pip install --system .
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
