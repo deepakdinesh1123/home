@@ -3,20 +3,31 @@ on:
   push:
     branches:
       - main
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
       - name: Configure Git Credentials
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Install the latest version of uv and set the python version to 3.13t
+      - name: Setup UV
         uses: astral-sh/setup-uv@v5
         with:
-          python-version: 3.12
-      - run: mkdocs gh-deploy --force
+          pyproject-file: "pyproject.toml"
+
+      - name: Install Dependencies
+        run: uv pip install -e .
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
