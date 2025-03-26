@@ -9,6 +9,3 @@ dependencies = [
     "mkdocs-material>=9.5.49",
     "mkdocs-minify-plugin>=0.8.0",
 ]
-
-[tool.uv]
-required-version = "0.4.30"

@@ -21,13 +21,15 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Setup UV
-        uses: astral-sh/setup-uv@v5
+      - uses: astral-sh/setup-uv@v5
         with:
-          pyproject-file: "pyproject.toml"
+          enable-cache: true
 
-      - name: Install Dependencies
-        run: uv pip install --system .
+      - name: Create Virutal Env
+        run: uv venv
+
+      - name: Install Deps
+        run: uv pip install .
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
