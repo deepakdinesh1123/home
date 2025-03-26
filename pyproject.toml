@@ -1,7 +1,7 @@
 [project]
-name = "portfolio"
+name = "home"
 version = "0.0.1"
-description = "Add your description here"
+description = "Home"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -9,3 +9,6 @@ dependencies = [
     "mkdocs-material>=9.5.49",
     "mkdocs-minify-plugin>=0.8.0",
 ]
+
+[tool.uv]
+required-version = "0.4.30"
