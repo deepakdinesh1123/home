@@ -42,7 +42,7 @@ validation:
   unrecognized_links: warn
 
 nav:
-  - Home: index.md
+  - About: index.md
   - Projects: projects/index.md
   - Resume: resume.md
   - Blog: blog/index.md
