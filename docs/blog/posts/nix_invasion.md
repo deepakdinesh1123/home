@@ -15,6 +15,8 @@ title: Nix Invasion
 
 This blog post will detail my introduction to nix and describe how I am using it today, if you are a software engineer frustrated with setting up environments or a distro hopper who is finally done with finding installation instructions for software in every distro and asking ChatGPT for help when they do not work this blog will convince you to learn nix.
 
+<!-- more -->
+
 ## Intro
 
 For a long time I was working on a code execution engine based on docker but I abandoned it as I felt that configuring and maintaining docker images would take a lot of effort and space and when I was exploring what project I would work on next I think I heard the word nix from a blog or reddit comment and decieded to give it a try.
