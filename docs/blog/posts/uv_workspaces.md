@@ -11,7 +11,7 @@ description:
 title: Python Monorepos with UV
 ---
 
-# Introduction
+# Python Monorepos with UV
 
 If you've spent any time as a Python developer lately, you've definitely heard of [UV](https://github.com/astral-sh/uv) - the blazing-fast Python package and project manager that's solving so many problems in the Python ecosystem. 
 At [Valkyrie](https://github.com/deepakdinesh1123/valkyrie), we initially started using UV in our Python SDK. But when we began working on an MCP server
