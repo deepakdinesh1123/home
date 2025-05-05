@@ -17,6 +17,8 @@ If you've spent any time as a Python developer lately, you've definitely heard o
 At [Valkyrie](https://github.com/deepakdinesh1123/valkyrie), we initially started using UV in our Python SDK. But when we began working on an MCP server
 I found myself wondering how to effectively manage multiple Python projects in the same repository.
 
+<!-- more -->
+
 # The Monorepo Headaches
 
 Anyone who's tried housing multiple Python projects in a single repo has likely run into these frustrations:
