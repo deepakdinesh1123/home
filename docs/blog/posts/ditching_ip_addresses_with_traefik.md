@@ -62,9 +62,9 @@ http://pensive-pike.localhost/sandbox
 
 Way easier to remember and use.
 
-This tiny tweak, powered by Traefik and a few Docker labels, dramatically improved the UX for working with Valkyrie sandboxes.
+This tiny tweak, powered by Traefik and a few Docker labels, dramatically improved the UX for working with Valkyrie sandboxes and also became our solution to route traffic to containers in production environment.
 
-You can also use this to avoid publishing container ports to host port and run two instances of postgres easily without having to use two different ports
+You can also use this to avoid publishing container ports to host port and run two instances of postgres easily without having to use two different ports.
 
 ## Bonus
 
