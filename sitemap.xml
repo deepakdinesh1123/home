@@ -2,46 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://deepakdinesh1123.github.io/home/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/contact/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/resume/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/2025/04/24/cached-nix-shell---speed-up-your-nix-workflows/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
-         <loc>https://deepakdinesh1123.github.io/home/blog/2025/05/24/clean-urls-for-valkyrie-sandboxes/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <loc>https://deepakdinesh1123.github.io/home/blog/2025/05/14/clean-urls-for-valkyrie-sandboxes/</loc>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/2025/03/24/nix-invasion/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
+    </url>
+    <url>
+         <loc>https://deepakdinesh1123.github.io/home/blog/2025/05/22/speeding-up-docker-builds-at-valkyrie/</loc>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/2025/05/05/python-monorepos-with-uv/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/projects/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/archive/2025/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
     <url>
          <loc>https://deepakdinesh1123.github.io/home/blog/category/tech/</loc>
-         <lastmod>2025-05-12</lastmod>
+         <lastmod>2025-05-24</lastmod>
     </url>
 </urlset>
