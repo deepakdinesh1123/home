@@ -16,6 +16,8 @@ title: Adding an analytics to your application without losing your sanity or mon
 
 A requirement for analytics page is something that will be raised one day or another in any application that deals with data and I've seen different companies deal with this problem in different ways depending on their requirements and the scale and budget.
 
+<!-- more -->
+
 At my previous company [Zelthy](https://www.zelthy.com/), when adding an analytics dashboard in one of our patient applications we simply added APIs that fetched the necessary data directly from the DB and passed it to the frontend which rendered the charts as the scale was not that high and the amount of data was also small.
 
 This worked out well and we were able to deploy it quickly but it will pose problems if the size of the data that the application dealt with were to increase in the future or if the number of users increase.
