@@ -9,7 +9,7 @@ tags:
   - django
 description:
   - Why go for a complex analytics setup when you can simply rely on the users browser
-title: Adding an analytics to your application without losing your sanity or money
+title: Adding an analytics dashboard to your application without losing your sanity or money
 ---
 
 ## Intro
