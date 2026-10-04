@@ -93,3 +93,17 @@ That's it, Aegis should now be running completely inside your AWS account.
 ![alt text](images/merge_conflict.png)
 
 As soon as there's a merge conflict a comment like this is added on your PR which can send you an email and a notification on your GitHub mobile app, which helps you react to it.
+
+**## Bonus**
+
+After showing this to [Sujay](https://github.com/Sujay-J-Reddy), he asked, what if we could warn users that there could be a merge conflict before anything gets merged?
+
+So he added a new feature to Aegis that shows files which are being modified by multiple open PRs.
+
+For example, if I open a PR which changes `auth.py` and Aegis sees that two other open PRs are also modifying `auth.py`, it will show me that there is an overlap between these PRs.
+
+This doesn't mean there will definitely be a merge conflict since the PRs could be modifying different parts of the file, but it gives you an early warning that there could be a conflict.
+
+This means you don't have to wait until another PR gets merged to find out that your PR has a conflict. You can see the potential merge risk as soon as you open your PR and coordinate with the people working on the other PRs before they get to the point of merging.
+
+![alt text](images/overlap_files.png)
