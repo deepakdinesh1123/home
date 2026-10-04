@@ -94,7 +94,7 @@ That's it, Aegis should now be running completely inside your AWS account.
 
 As soon as there's a merge conflict a comment like this is added on your PR which can send you an email and a notification on your GitHub mobile app, which helps you react to it.
 
-**## Bonus**
+## Bonus
 
 After showing this to [Sujay](https://github.com/Sujay-J-Reddy), he asked, what if we could warn users that there could be a merge conflict before anything gets merged?
 
